@@ -8,7 +8,7 @@ project/
 ├── Knowledge/    # Briefs, research, specs, meeting notes
 ├── BACKLOG.md    # Raw capture inbox
 ├── GOALS.md      # Goals, themes, priorities
-└── CLAUDE.md     # Your instructions
+└── AGENTS.md     # Your instructions
 ```
 
 ## Backlog Flow
