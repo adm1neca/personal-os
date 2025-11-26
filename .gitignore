@@ -4,7 +4,13 @@
 # Personal task files
 Tasks/*.md
 !Tasks/.gitkeep
+!Tasks/README.md
 BACKLOG.md
+
+# Personal knowledge files
+Knowledge/*.md
+!Knowledge/.gitkeep
+!Knowledge/README.md
 
 # Personal configuration
 CLAUDE.md     
@@ -29,13 +35,18 @@ venv/
 env/
 .env
 
-# IDE
+# IDE & Editor configs
 .vscode/
 .idea/
+.obsidian/
 *.swp
 *.swo
 *~
 .DS_Store
+
+# Tool-specific
+.specstory/
+.factory/
 
 # Logs
 *.log
