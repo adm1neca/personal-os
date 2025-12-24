@@ -14,6 +14,7 @@ Brain dump into `BACKLOG.md`, tell your AI assistant to process it, and get orga
 | Goal-driven Prioritization | ✅ |
 | Knowledge Base | ✅ |
 | Backlog Processing | ✅ |
+| Session Evals | ✅ |
 | MCP Server (optional) | ✅ |
 
 ---
@@ -77,6 +78,7 @@ The setup will:
 ```
 personal-os/
 ├── core/                    # Reusable system components (public)
+│   ├── evals/              # Session evaluations
 │   ├── mcp/                # MCP server implementation
 │   │   └── server.py       # Core server with deduplication
 │   ├── templates/          # Template files for users
@@ -108,6 +110,7 @@ personal-os/
 - Goal-driven prioritization based on your vision
 - Smart deduplication detects duplicate tasks
 - Natural language - just talk to your AI
+- Session evals to review and learn from AI interactions
 - 2-minute setup, no Python required
 - MCP integration for Claude and other AI assistants
 
